@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="app_exit_label">Press BACK again to exit</string>
+
+    <string name="gl_error_network_unavailable">No internet connection</string>
+    <string name="gl_error_unknown">An unknown error occurred</string>
+    <string name="gl_error_server_connection_failed">Unable to connect to the server</string>
+    <string name="gl_try_again">Try again</string>
+
+    <string name="sc_home_screen_error_in_append">Failed to load more items</string>
+
+    <string name="sc_movie_detail_imdb_rating">%1$s/10 IMDb</string>
+    <string name="sc_movie_detail_length_title">Length</string>
+    <string name="sc_movie_detail_length_language">Language</string>
+    <string name="sc_movie_detail_length_formatted">%1$sh %2$smin</string>
+    <string name="sc_movie_detail_description_title">Description</string>
+</resources>
