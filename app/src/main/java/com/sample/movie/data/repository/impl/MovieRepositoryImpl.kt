@@ -33,7 +33,7 @@ class MovieRepositoryImpl @Inject constructor(
                 pageSize = MovieApi.PAGE_SIZE,
                 initialLoadSize = MovieApi.PAGE_SIZE * 2,
                 maxSize = MovieApi.PAGE_SIZE * 10,
-                prefetchDistance = MovieApi.PAGE_SIZE / 4
+                prefetchDistance = 1
             ),
             remoteMediator = MovieItemRemoteMediator(
                 database = movieDatabase,
